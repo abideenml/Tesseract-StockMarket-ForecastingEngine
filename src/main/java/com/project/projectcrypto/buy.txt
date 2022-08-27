@@ -1,0 +1,4 @@
+AAPL
+2
+market
+buy

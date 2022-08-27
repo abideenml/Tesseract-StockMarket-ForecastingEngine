@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="833.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="456.0" prefWidth="579.0">
+         <children>
+            <TextField alignment="CENTER" editable="false" style="-fx-background-color: #17172C #17172C; -FX-TEXT-FILL: #D6AFFB;" text="TESSERACT®">
+               <font>
+                  <Font name="Serif Regular" size="33.0" />
+               </font>
+            </TextField>
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <Pane prefHeight="248.0" prefWidth="579.0" style="-fx-background-color: #17172C #17172C;">
+               <children>
+                  <Text fill="WHITE" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tesseract was formed in 2022 and holds the belief that love is the ideal way to conduct business. We are a team made up of artists, engineers, and algorithmic hedge fund traders. Some of us have been professional photographers, and others have created trading algos managing hundreds of millions of dollars. We are united with the same goal: to make everyone's life easier in the ways we know how." textAlignment="CENTER" wrappingWidth="579.7366762161255">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our client base is made up of individuals, hedge funds, quant funds, fintech companies, academic institutions, and others." textAlignment="CENTER" wrappingWidth="579.7366762161255">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</HBox>

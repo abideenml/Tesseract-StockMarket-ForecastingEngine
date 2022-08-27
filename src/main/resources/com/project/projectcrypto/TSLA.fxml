@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="852.0" style="-fx-background-color: rgb(16,16,22);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.projectcrypto.TSLAController">
+   <children>
+      <ImageView fx:id="pic" fitHeight="226.0" fitWidth="362.0" layoutX="7.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TSLA.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="8.0" layoutY="283.0" prefHeight="74.0" prefWidth="838.0" scrollTop="3.0" style="-fx-control-inner-background: rgb(23,23,44); -fx-border-color: black;" text="Tesla Motors, Inc. (Tesla) designs, develops, manufactures and sells electric vehicles and advanced electric vehicle powertrain components. Tesla owns its sales and service network. The Company is engaged in commercially producing a federally-compliant electric vehicle, the Tesla Roadster. addition to developing its Model S and future vehicle manufacturing capabilities at the Tesla Factory, the Company is designing, developing and manufacturing lithium-ion battery packs, electric motors, gearboxes and components both for its vehicles and for its original equipment manufacturer customers. These &#10;activities occur at its electric powertrain manufacturing facility in Palo Alto, California and at the Tesla Factory. The Company provides services&#10;for the development of electric powertrain components and sells electric powertrain components to other automotive manufacturers." wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <AnchorPane layoutX="353.0" layoutY="4.0" prefHeight="46.0" prefWidth="490.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+         <children>
+            <Label fx:id="company_name" layoutX="184.0" layoutY="13.0" text="TESLA INC" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="8.0" layoutY="357.0" prefHeight="46.0" prefWidth="838.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+         <children>
+            <Label layoutX="390.0" layoutY="13.0" text="NEWS" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="96.0" fitWidth="30.0" layoutX="-8.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="353.0" layoutY="50.0" prefHeight="226.0" prefWidth="490.0" style="-fx-background-color: rgb(23, 23, 44);">
+         <children>
+            <Label fx:id="current_price" alignment="CENTER" layoutX="133.0" layoutY="5.0" prefHeight="46.0" prefWidth="224.0" text="value" textAlignment="CENTER" textFill="#f45b5b">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="38.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="66.0" text="Open:" textFill="#6d7888">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="117.0" text="High:" textFill="#6d7888">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="169.0" text="Low:" textFill="#6d7888">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="open" layoutX="110.0" layoutY="68.0" style="-fx-text-fill: rgb(255,255,255);" text="\$669.80" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="high" layoutX="110.0" layoutY="119.0" style="-fx-text-fill: rgb(255,255,255);" text="\$670.00" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="low" layoutX="110.0" layoutY="171.0" prefHeight="26.0" prefWidth="62.0" style="-fx-text-fill: rgb(255,255,255);" text="\$669.70" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="66.0" style="-fx-text-fill: rgb(109, 120, 136);" text="P/E:" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="117.0" style="-fx-text-fill: rgb(109, 120, 136);" text="Div:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="302.0" layoutY="169.0" style="-fx-text-fill: rgb(109, 120, 136);" text="Mkt:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="66.0" prefHeight="26.0" prefWidth="46.0" style="-fx-text-fill: rgb(255,255,255);" text="80.40">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="119.0" prefHeight="26.0" prefWidth="104.0" style="-fx-text-fill: rgb(255,255,255);" text="\$0.00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="171.0" style="-fx-text-fill: rgb(255,255,255);" text="\$693.82B">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="date" layoutX="168.0" layoutY="204.0" prefHeight="18.0" prefWidth="154.0" text="Label" textFill="#6d7888">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="7.0" layoutY="4.0" prefHeight="46.0" prefWidth="339.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+         <children>
+            <Label layoutX="138.0" layoutY="13.0" style="-fx-text-fill: rgb(255,255,255);" text="CHART" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Text fx:id="feedLine5" fill="#4ee8b9" layoutX="11.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867188">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="feedLine7" fill="WHITE" layoutX="12.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867186" />
+      <Text fx:id="feedLine9" fill="#4ee8b9" layoutX="11.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867188">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="feedLine11" fill="WHITE" layoutX="11.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867186">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </Text>
+      <TextField fx:id="feedLine6" editable="false" layoutX="7.0" layoutY="430.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="feedLine8" editable="false" layoutX="11.0" layoutY="469.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="feedLine10" editable="false" layoutX="12.0" layoutY="520.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="feedLine12" editable="false" layoutX="12.0" layoutY="566.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+   </children>
+</AnchorPane>

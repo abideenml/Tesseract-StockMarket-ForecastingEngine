@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="858.0" style="-fx-background-color: rgb(16,16,22);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.projectcrypto.GOOGController">
+    <children>
+        <ImageView fx:id="pic" fitHeight="232.0" fitWidth="348.0" layoutX="7.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@GOOG.png" />
+            </image>
+        </ImageView>
+        <TextArea editable="false" layoutX="7.0" layoutY="297.0" prefHeight="75.0" prefWidth="846.0" scrollTop="3.0" style="-fx-control-inner-background: rgb(23,23,44); -fx-border-color: black;" text="Google Inc. (Google) is a global technology company. The Company's business is primarily focused around key areas, such as search, advertising, operating systems and platforms, enterprise and hardware products. The Company generates revenue primarily by delivering online advertising. The Company also generates revenues from Motorola by selling hardware products. The Company provides its products and services in more than 100 languages and in more than 50 countries, regions, and territories. Effective May 16, 2014, Google Inc acquired Quest Visual Inc. Effective May 20, 2014, Google Inc acquired Enterproid Inc, doing business as Divide. In June 2014, Google Inc acquired mDialog Corp. Effective June 25, 2014, Google Inc acquired Appurify Inc, a San Francisco-based developer of mobile bugging application software." wrapText="true" />
+        <AnchorPane layoutX="361.0" layoutY="14.0" prefHeight="46.0" prefWidth="485.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+            <children>
+                <Label fx:id="company_name" layoutX="136.0" layoutY="12.0" text="ALPHABET INC-CLASS C" textFill="WHITE">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="7.0" layoutY="372.0" prefHeight="46.0" prefWidth="846.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+            <children>
+                <Label layoutX="390.0" layoutY="13.0" text="NEWS" textFill="WHITE">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="96.0" fitWidth="30.0" layoutX="-8.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+        <AnchorPane layoutX="360.0" layoutY="60.0" prefHeight="232.0" prefWidth="486.0" style="-fx-background-color: rgb(23, 23, 44);">
+            <children>
+                <Label fx:id="current_price" alignment="CENTER" layoutX="126.0" prefHeight="46.0" prefWidth="224.0" text="value" textAlignment="CENTER" textFill="#f45b5b">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="38.0" />
+                    </font>
+                </Label>
+                <Label layoutX="20.0" layoutY="61.0" text="Open:" textFill="#6d7888">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="22.0" layoutY="112.0" text="High:" textFill="#6d7888">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="23.0" layoutY="164.0" text="Low:" textFill="#6d7888">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="24.0" />
+                    </font>
+                </Label>
+                <Label fx:id="open" layoutX="103.0" layoutY="63.0" style="-fx-text-fill: rgb(255,255,255);" text="\$669.80" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+                <Label fx:id="high" layoutX="103.0" layoutY="114.0" style="-fx-text-fill: rgb(255,255,255);" text="\$670.00" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+                <Label fx:id="low" layoutX="103.0" layoutY="166.0" prefHeight="26.0" prefWidth="62.0" style="-fx-text-fill: rgb(255,255,255);" text="\$669.70" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+                <Label layoutX="296.0" layoutY="61.0" style="-fx-text-fill: rgb(109, 120, 136);" text="P/E:" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font></Label>
+                <Label layoutX="297.0" layoutY="112.0" style="-fx-text-fill: rgb(109, 120, 136);" text="Div:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font></Label>
+                <Label layoutX="295.0" layoutY="164.0" style="-fx-text-fill: rgb(109, 120, 136);" text="Mkt:">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="24.0" />
+               </font></Label>
+                <Label layoutX="365.0" layoutY="61.0" prefHeight="26.0" prefWidth="46.0" style="-fx-text-fill: rgb(255,255,255);" text="80.40">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+                <Label layoutX="365.0" layoutY="114.0" prefHeight="26.0" prefWidth="104.0" style="-fx-text-fill: rgb(255,255,255);" text="\$0.00">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+                <Label layoutX="365.0" layoutY="166.0" style="-fx-text-fill: rgb(255,255,255);" text="\$693.82B">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label fx:id="date" layoutX="161.0" layoutY="199.0" prefHeight="18.0" prefWidth="154.0" text="Label" textFill="#6d7888">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="7.0" layoutY="14.0" prefHeight="46.0" prefWidth="348.0" style="-fx-background-color: rgb(47,31,81); -fx-background-radius: 10px;">
+            <children>
+                <Label layoutX="138.0" layoutY="13.0" style="-fx-text-fill: rgb(255,255,255);" text="CHART" textFill="WHITE">
+                    <font>
+                        <Font name="Microsoft Sans Serif" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Text fx:id="f13" fill="#4ee8b9" layoutX="21.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867188">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="f15" fill="WHITE" layoutX="22.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867186" />
+      <Text fx:id="f17" fill="#4ee8b9" layoutX="21.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867188">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="f19" fill="WHITE" layoutX="21.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="829.3366088867186">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </Text>
+      <TextField fx:id="f14" editable="false" layoutX="17.0" layoutY="440.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="f16" editable="false" layoutX="21.0" layoutY="479.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="f18" editable="false" layoutX="22.0" layoutY="530.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+      <TextField fx:id="f20" editable="false" layoutX="22.0" layoutY="576.0" prefHeight="26.0" prefWidth="829.0" style="-fx-background-color: rgb(16,16,22); -fx-text-fill: #949494;" />
+    </children>
+</AnchorPane>

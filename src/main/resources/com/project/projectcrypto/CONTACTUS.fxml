@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="833.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="551.0" prefWidth="597.0">
+         <children>
+            <TextField alignment="CENTER" editable="false" prefHeight="59.0" prefWidth="452.0" style="-fx-text-fill: white; -fx-background-color: #17172C;" text="CONTACT US">
+               <font>
+                  <Font name="SansSerif" size="32.0" />
+               </font>
+            </TextField>
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <TextField alignment="CENTER" editable="false" style="-fx-background-color: #17172C #17172C; -fx-text-fill: white;" text="FOR SUPPORT INQUIRIES">
+               <font>
+                  <Font name="SansSerif" size="19.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" style="-fx-background-color: #17172C #17172C; -fx-text-fill: #68E8B9;" text="support@tesseract.com">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <TextField alignment="CENTER" editable="false" style="-fx-background-color: #17172C #17172C; -fx-text-fill: white;" text="FOR SALES AND ENTERPRISE INQUIRIES">
+               <font>
+                  <Font name="SansSerif" size="18.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" style="-fx-background-color: #17172C #17172C; -fx-text-fill: #68E8B9;" text="sales@tesseract.com">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+            <TextField editable="false" style="-fx-background-color: #17172C #17172C;" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

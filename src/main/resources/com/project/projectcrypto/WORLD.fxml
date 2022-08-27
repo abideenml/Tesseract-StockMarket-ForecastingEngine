@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPaneMain" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="1048.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.projectcrypto.WorldController">
+   <left>
+      <VBox fx:id="vBoxSide" prefHeight="598.0" prefWidth="190.0" style="-fx-background-color: #17172C; -fx-border-color: #2F1F51; -fx-border-width: 0px 2px 0px 0px;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#d6affb" strokeType="OUTSIDE" strokeWidth="0.0" text="Tesseract" textAlignment="CENTER" wrappingWidth="185.03915405273438">
+               <font>
+                  <Font name="Serif Regular" size="42.0" />
+               </font>
+            </Text>
+            <Pane prefHeight="57.0" prefWidth="188.0" />
+            <Pane prefHeight="486.0" prefWidth="197.0">
+               <children>
+                  <Button fx:id="worldButton" layoutX="-6.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#WORLD" prefHeight="52.0" prefWidth="192.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="WORLD" textFill="#ced0e0">
+                     <font>
+                        <Font name="SansSerif" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@world.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="portfolioButton" layoutX="13.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#PORTFOLIO" prefHeight="62.0" prefWidth="172.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="    PORTFOLIO" textFill="#ced0e0">
+                     <font>
+                        <Font name="SansSerif" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="contactUsButton" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="7.0" layoutY="204.0" mnemonicParsing="false" onMouseClicked="#CONTACTUS" prefHeight="49.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="        CONTACT  US" textFill="#ced0e0">
+                     <font>
+                        <Font name="SansSerif" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="aboutUsButton" alignment="TOP_LEFT" layoutX="8.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#ABOUTUS" prefHeight="41.0" prefWidth="173.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="        ABOUT US" textFill="#ced0e0">
+                     <font>
+                        <Font name="SansSerif" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@aboutUs.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@contactUs.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@portfolio.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="tradeButton" layoutX="-8.0" layoutY="88.0" mnemonicParsing="false" onMouseClicked="#TRADE" prefHeight="44.0" prefWidth="196.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;" text="TRADE" textFill="#ced0e0">
+                     <font>
+                        <Font name="SansSerif" size="17.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@trade.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="anchorPane" prefHeight="551.0" prefWidth="833.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="7.0" layoutY="57.0" prefHeight="264.0" prefWidth="278.0" style="-fx-background-color: #17172C; -fx-background-radius: 10px;">
+               <children>
+                  <TextField alignment="CENTER" editable="false" prefHeight="40.0" prefWidth="278.0" style="-fx-background-color: #2F1F51; -fx-background-radius: 10px; -fx-text-fill: white;" text="MSFT">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="226.0" fitWidth="278.0" layoutY="40.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@MSFT.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="291.0" layoutY="56.0" prefHeight="265.0" prefWidth="278.0" style="-fx-background-color: #17172C; -fx-background-radius: 10px;">
+               <children>
+                  <TextField alignment="CENTER" prefHeight="40.0" prefWidth="278.0" style="-fx-background-color: #2F1F51; -fx-background-radius: 10px; -fx-text-fill: white;" text="TSLA">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="227.0" fitWidth="279.0" layoutY="40.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@TSLA.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="576.0" layoutY="56.0" prefHeight="265.0" prefWidth="278.0" style="-fx-background-color: #17172C; -fx-background-radius: 10px;">
+               <children>
+                  <TextField alignment="CENTER" editable="false" prefHeight="40.0" prefWidth="278.0" style="-fx-background-color: #2F1F51; -fx-background-radius: 10px; -fx-text-fill: white;" text="TECH">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="227.0" fitWidth="274.0" layoutX="2.0" layoutY="40.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@Tech.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="6.0" layoutY="325.0" prefHeight="264.0" prefWidth="563.0" style="-fx-background-color: #17172C; -fx-background-radius: 10px;">
+               <children>
+                  <TextField alignment="CENTER" editable="false" layoutX="1.0" prefHeight="40.0" prefWidth="562.0" style="-fx-background-color: #2F1F51; -fx-text-fill: white; -fx-background-radius: 10px;" text="NEWS">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Text fx:id="feedLine1" fill="#4ee8b9" layoutX="3.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="552.5365905761719">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="feedLine2" editable="false" layoutX="4.0" layoutY="86.0" prefHeight="26.0" prefWidth="558.0" style="-fx-background-color: transparent; -fx-text-fill: #949494;" />
+                  <Text fx:id="feedLine3" fill="WHITE" layoutX="10.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="546.9365229606627" />
+                  <TextField fx:id="feedLine4" editable="false" layoutX="6.0" layoutY="132.0" prefHeight="26.0" prefWidth="555.0" style="-fx-background-color: transparent; -fx-text-fill: #949494;" />
+                  <Text fx:id="feedline5" fill="#4ee8b9" layoutX="6.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="551.7365698814392">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="feedline6" editable="false" layoutX="6.0" layoutY="188.0" prefHeight="26.0" prefWidth="550.0" style="-fx-background-color: transparent; -fx-text-fill: #949494;" />
+                  <Text fx:id="feedline7" fill="WHITE" layoutX="10.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="545.3365783691405">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </Text>
+                  <TextField fx:id="feedline8" editable="false" layoutX="5.0" layoutY="231.0" prefHeight="26.0" prefWidth="554.0" style="-fx-background-color: transparent; -fx-text-fill: #949494;" />
+               </children>
+            </Pane>
+            <Pane layoutX="575.0" layoutY="326.0" prefHeight="262.0" prefWidth="280.0" style="-fx-background-color: #17172C; -fx-background-radius: 10px;">
+               <children>
+                  <TextField alignment="CENTER" editable="false" prefHeight="40.0" prefWidth="280.0" style="-fx-background-color: #2F1F51; -fx-text-fill: white; -fx-background-radius: 10px;" text="SECTORS">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="14.0" layoutY="46.0" prefHeight="17.0" prefWidth="132.0" text="Gold" textFill="#e31a1c">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="142.0" prefHeight="17.0" prefWidth="132.0" text="Materials" textFill="#e31a1c">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="161.0" prefHeight="17.0" prefWidth="132.0" text="Industrial" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="180.0" prefHeight="17.0" prefWidth="132.0" text="Healthcare" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="199.0" prefHeight="17.0" prefWidth="132.0" text="Utilities" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="218.0" prefHeight="17.0" prefWidth="132.0" text="Discretionaries" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="65.0" prefHeight="17.0" prefWidth="132.0" text="Oil" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="84.0" prefHeight="17.0" prefWidth="132.0" text="Tech" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="104.0" prefHeight="17.0" prefWidth="132.0" text="Energy" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="123.0" prefHeight="17.0" prefWidth="132.0" text="Financial" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="47.0" prefHeight="17.0" prefWidth="43.0" text="-0.08%" textFill="#e31a1c">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="66.0" prefHeight="17.0" prefWidth="43.0" text="0.23%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="85.0" prefHeight="17.0" prefWidth="43.0" text="1.08%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="105.0" prefHeight="17.0" prefWidth="43.0" text="1.50%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="124.0" prefHeight="17.0" prefWidth="43.0" text="1.37%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="143.0" prefHeight="17.0" prefWidth="43.0" text="-0.71%" textFill="#e31a1c">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="181.0" prefHeight="17.0" prefWidth="43.0" text="1.12%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="200.0" prefHeight="17.0" prefWidth="43.0" text="2.45%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="219.0" prefHeight="17.0" prefWidth="43.0" text="1.84%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="223.0" layoutY="162.0" prefHeight="17.0" prefWidth="43.0" text="0.87%" textFill="#24ba6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ComboBox fx:id="stockComboBox" layoutX="7.0" layoutY="8.0" onAction="#stockSelection" prefHeight="34.0" prefWidth="701.0" promptText="Enter a ticker" style="-fx-prompt-text-fill: white; -fx-background-color: #17172C; -fx-background-radius: 50px; -fx-control-inner-background: #17172C; -fx-text-base-color: #24ba6f;">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </ComboBox>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
