@@ -140,13 +140,13 @@ I found these resources useful (while developing this one):
 If you find this code useful, please cite the following:
 
 ```
-@misc{Zain2023StockMarketAnalyzer,
+@misc{Zain2023Tesseract-StockMarket-ForecastingEngine,
   author = {Zain, Abideen},
-  title = {stock-market-analyzer},
+  title = {tesseract-stockmarket-forecastingengine},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/abideenml/Stock-Market-Analyzer}},
+  howpublished = {\url{https://github.com/abideenml/Tesseract-StockMarket-ForecastingEngine}},
 }
 ```
 
@@ -160,4 +160,4 @@ If you'd love to have some more AI-related content in your life :nerd_face:, con
 
 ## Licence
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/abideenml/Stock-Market-Analyzer/blob/master/LICENCE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/abideenml/Tesseract-StockMarket-ForecastingEngine/blob/master/LICENCE)
