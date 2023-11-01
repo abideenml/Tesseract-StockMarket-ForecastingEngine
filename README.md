@@ -1,4 +1,4 @@
-# Stock Market Analyzer
+## Tesseract: Stock Market Forecasting :chart_with_upwards_trend: Engine with JavaFX and Facebook Prophet :money_with_wings:
 
 In this project, I have made a desktop application with Java. I have used concepts of Object Oriented Programming, JavaFX and Facebook Prophet. This application 
 extracts stock market data from api and stores it in csv. Then this data is read by pandas and used by Facebook Prophet to train and forecast the future. This 
@@ -7,17 +7,18 @@ this project with the help of Alpaca api. All the trades can be viewed in the Po
 finding the average rate of increase or decrease over the last 30 days. 
 
 ## Table of Contents
-  * [What are Telephone-based Social Engineering attacks?](#what-are-telephone-based-social-engineering-attacks)
-  * [Understanding Document Vectorization](#understanding-vectorization)
-  * [Clustering Techniques](#clustering-techniques)
-  * [Classification Models](#classification-models)
+  * [What is Tesseract?](#what-is-tesseract?)
+  * [Alpaca Trading](#alpaca-trading)
+  * [Facebook Prophet](#facebook-prophet)
   * [Setup](#setup)
   * [Todos](#todos)
   * [Acknowledgements](#acknowledgements)
   * [Citation](#citation)
   * [Connect with me](#connect-with-me)
 
-Homepage:
+
+## What-is-Tesseract?
+
 
 <p align="center">
 <img src="data/readme_pics/homepage.png" width="700"/>
@@ -42,6 +43,15 @@ Homepage:
 <p align="center">
 <img src="data/readme_pics/about.png" width="700"/>
 </p>
+
+
+## Alpaca Trading
+<p align="center">
+<img src="data/readme_pics/alpaca.png" width="700"/>
+</p>
+
+
+## Facebook Prophet
 
 
 
