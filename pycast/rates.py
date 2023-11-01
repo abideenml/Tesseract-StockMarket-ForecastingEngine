@@ -1,4 +1,5 @@
 import pandas as pd
+
 stocklist=['TSLA','AAPL','MSFT','F','HPQ','GOOG']
 rates = []
 
@@ -26,3 +27,4 @@ for i in stocklist:
   data = df.iloc[-40:]
   rate = slope(data)
   f.write(str(rate) + "\n")
+

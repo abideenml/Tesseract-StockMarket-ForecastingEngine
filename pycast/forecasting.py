@@ -14,6 +14,8 @@ import pandas_datareader as pdr
 key="7f689ebe475fb98fa72ea483f5c514273d0cd7d9"
 
 
+
+
 def line_plot(na,df,forecast):
     name=na
     plt.xlabel('Time')
