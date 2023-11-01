@@ -6,28 +6,105 @@ forecast is also store in csv and graphs are plotted with matplotlib to visualiz
 this project with the help of Alpaca api. All the trades can be viewed in the Portfolio panel. This application also helps users in buying and selling stocks by 
 finding the average rate of increase or decrease over the last 30 days. 
 
+## Table of Contents
+  * [What are Telephone-based Social Engineering attacks?](#what-are-telephone-based-social-engineering-attacks)
+  * [Understanding Document Vectorization](#understanding-vectorization)
+  * [Clustering Techniques](#clustering-techniques)
+  * [Classification Models](#classification-models)
+  * [Setup](#setup)
+  * [Todos](#todos)
+  * [Acknowledgements](#acknowledgements)
+  * [Citation](#citation)
+  * [Connect with me](#connect-with-me)
+
 Homepage:
 
-![dash](https://user-images.githubusercontent.com/89645252/187406454-52e2b737-7ac4-480b-b63f-7857422074fb.png)
+<p align="center">
+<img src="data/readme_pics/homepage.png" width="700"/>
+</p>
 
-Trade:
+<p align="center">
+<img src="data/readme_pics/stocks.png" width="700"/>
+</p>
 
-![trade](https://user-images.githubusercontent.com/89645252/187406367-62804960-6815-4182-9950-112c33c9631c.png)
+<p align="center">
+<img src="data/readme_pics/trade.png" width="700"/>
+</p>
 
-Portfolio:
+<p align="center">
+<img src="data/readme_pics/portfolio.png" width="700"/>
+</p>
 
-![portfolio](https://user-images.githubusercontent.com/89645252/187406297-41d4db8b-55b3-4e3c-a384-79ea8b821792.png)
+<p align="center">
+<img src="data/readme_pics/contact.png" width="700"/>
+</p>
 
-Stocks:
-
-![microsoft](https://user-images.githubusercontent.com/89645252/187406246-9322dd8a-ed71-4e37-a04a-b700caf0af71.png)
-
-Contact us:
-
-![contact](https://user-images.githubusercontent.com/89645252/187406137-2d7d2673-1998-4040-82a1-1f72afce90dc.png)
-
-About:
-
-![about](https://user-images.githubusercontent.com/89645252/187406098-5233b7e5-a950-4bb8-9f8c-47d65a183ea0.png)
+<p align="center">
+<img src="data/readme_pics/about.png" width="700"/>
+</p>
 
 
+
+## Setup
+
+Let's get this thing running! Follow the next steps:
+
+1. `git clone https://github.com/abideenml/Stock-Market-Analyzer`
+2. Navigate into project directory `cd Stock-Market-Analyzer/pycast`
+3. Get the `API token` from Alpaca website and add your key to `forecasting.py`
+3. Create a new venv environment and run `pip install -r requirements.txt`
+4. Move to the `src/main` folder and setup the jave project.
+
+That's it! <br/>
+
+
+
+
+## Todos:
+
+Finally there are a couple more todos which I'll hopefully add really soon:
+
+* Make a better UI of the project.
+* Make a data pipeline with Kedro and MLflow.
+* Deploy the models and learn the effect of drift on their performance.
+
+
+
+
+
+## Acknowledgements
+
+I found these resources useful (while developing this one):
+
+* [Time series forecasting with Facebook Prophet](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
+* [LSTM Illustrated Guide](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+* [Alpaca trading](https://alpaca.markets/docs/introduction/)
+* [JavaFX by BroCode](https://www.youtube.com/watch?v=_7OM-cMYWbQ&list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev&ab_channel=BroCode)
+
+
+## Citation
+
+If you find this code useful, please cite the following:
+
+```
+@misc{Zain2023StockMarketAnalyzer,
+  author = {Zain, Abideen},
+  title = {stock-market-analyzer},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/abideenml/Stock-Market-Analyzer}},
+}
+```
+
+## Connect with me
+
+If you'd love to have some more AI-related content in your life :nerd_face:, consider:
+
+* Connect and reach me on [LinkedIn](https://www.linkedin.com/in/zaiinulabideen/) and [Twitter](https://twitter.com/zaynismm)
+* Follow me on 📚 [Medium](https://medium.com/@zaiinn440)
+* Subscribe to my 📢 weekly [AI newsletter](https://rethinkai.substack.com/)!
+
+## Licence
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/abideenml/Stock-Market-Analyzer/blob/master/LICENCE)
